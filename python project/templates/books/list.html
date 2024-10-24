@@ -1,0 +1,16 @@
+<!-- templates/books/list.html file -->
+<html>
+
+<h2>List of Books</h2>
+<ul>
+    <li><a href="{{url_for('.getItem', id=1)}}">Advance Software</a>
+        <li><a href="{{url_for('.getItem', id=1)}}">Advance Communication</a>
+            <li><a href="{{url_for('.getItem', id=1)}}">Internet Protocols</a>
+                <li><a href="{{url_for('.getItem', id=1)}}">Research Methology</a>
+                    <li><a href="{{url_for('.getItem', id=1)}}">Software Quality Assurance</a></li>
+</ul>
+
+<a href="{{url_for('index')}}">Back to Home</a>
+<br>
+<a href="{{url_for('authors.list')}}">Authors</a>
+</html>

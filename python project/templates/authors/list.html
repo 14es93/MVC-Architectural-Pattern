@@ -1,0 +1,16 @@
+<!-- templates/authors/list.html file -->
+<html>
+
+<h2>List of Authors</h2>
+<ul>
+    <li><a href="{{url_for('.getItem', id=1)}}">Dr.Mukhtiar Memon</a>
+        <li><a href="{{url_for('.getItem', id=1)}}">Dr.Mir Sajjad Talpur</a>
+            <li><a href="{{url_for('.getItem', id=1)}}">Dr.MUbina Pathan</a>
+                <li><a href="{{url_for('.getItem', id=1)}}">Dr.Pinial Butt</a>
+                    <li><a href="{{url_for('.getItem', id=1)}}">Dr.Zulfiqar Mahar</a></li>
+</ul>
+
+<a href="{{url_for('index')}}">Back to Home</a>
+<br>
+<a href="{{url_for('authors.list')}}">Authors</a>
+</html>
